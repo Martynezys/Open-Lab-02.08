@@ -6,8 +6,8 @@ namespace Open_Lab_02._08
     {
         public bool IsEmpty(string str)
         {
-            return str == "" || str.Length == 0;
-            
+
+            return string.IsNullOrEmpty(str);
         }
     }
 }
